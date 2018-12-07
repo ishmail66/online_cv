@@ -1,96 +1,161 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<!-- this is my head -->
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-    <!-- links for google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-    <!-- link for stylesheet -->
-    <link rel="stylesheet" href="css/styles.css">
-    <!-- jQuery cdn -->
-    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <!-- link for icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Ishmail Sadien-cv</title>
-
-    <!-- link for fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- java.s -->
-    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
-
-    <!-- my nav bar -->
-    <div id="header">
-        <div class="topnav" id="myTopnav">
-            <a href="#" class="active">Ishmail Sadien</a>
-            <a href="#abt"class="about">About</a>
-            <a href="#ski" class="skills">skills</a>
-            <a href="#experience"class="work">Work</a>
-            <a href="#emojis" class="emojis">Emojies</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+    <script src="js/buttonUp.js"></script>
+    <!-- MAIN CONTAINER -->
+		<div id="main_container">
+      <!-- HEADER -->
+      <div id="header">
+        <!-- LOGOTYPE/NAME -->
+        <div class="header_logotype_container">
+          <h1 class="logotype_name">Ishmail <span class="purple">Sadien</span></h1>
+          <h2 class="logotype_occupation">Frontend Web Developer</h2>
         </div>
-    </div>
+        <!-- MAIN MENU -->
+        <div class="header_menu_container">
+          <div class="clear"></div>
+          <ul class="header_menu horizontal_list">
+            <li><a class="no_border purple" href="#">Profile</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Work Experience</a></li>
+            <li><a href="#">Featured Projects</a></li>
+            <li><a href="#">Awards</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- LEFT COL -->
+      <div id="left_col">
+        <div class="profile_frame">
+          <div class="profile_picture"></div>
+          <!-- <img src="images/javier_latorre.jpg" alt="profile picture"> -->
+        </div>
+        <div class="hello_content">
+          <h2>Hello!</h2>
+          <p>I'm passionate about technology and human behavior, hardworker and a fast-learner with experience in HTML, CSS, SASS, RUBY, JavaScript and Jquery.</p>
+        </div>
+        <div class="contact_details_content">
+          <h2>Contact details</h2>
+          <p class="purple">Phone:</p>
+          <p>083 74 56 044</p>
+          <p class="purple">Email:</p>
+          <p>ishmail66@gmail.com</p>
+          <p class="purple">Adress:</p>
+          <p>3 Adrian Rd</p>
+          <p>Ottery, Cape Town</p>
+          <p>7945</p>
+        </div>
+        <a href="ishmail66@gmail.com" class="send_message_button">
+          <span class="cut1"></span>
+          <span class="cut2"></span>
+          <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+        </a>
+        <div class="get_social_content">
+          <h2>Get social</h2>
+          <ul class="social_icons horizontal_list">
+            <li><a class="facebook" href="https://www.facebook.com/ishmailsadien"><span class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>
+           
+            <li><a class="linkedin" href="https://www.linkedin.com/in/sadien/en"><span class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- PROFILE CONTENT -->
+      <div id="content_container">				
+        <div class="block">
+          <h1>Profile</h1>
+          <blockquote class="profile_quote">
+            <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
+            <p>Jiddu Krishnamurti.</p>
+            <span class="entypo-quote"></span>
+          </blockquote>
+        </div>
+        <div class="block">
+          <h2>A few words about me</h2>
+          <p>Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to listen people stories and backgrounds and their different experiences around the world.</p>				
+        </div>
+        <div class="horizontal_line">
+          <div class="line_left"></div>
+          <div class="left_circle"></div>
+          <div class="central_circle"></div>
+          <div class="right_circle"></div>
+          <div class="line_right"></div>
+        </div>
+        <div class="block">
+          <h2>Philosophy</h2>
+          <p>I belive in ethic and moral not in imposed rules that you "have to" do or follow.</p>
+          <div class="philosophy_content">
+            <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a human being with rationality, I think it is our duty to take care of the world and treat others as one would like others to treat oneself. This way of perceiving reality affects my beliefs and my way of behaving. Summarizing on several points:</p>
+            <ul>
+              <li>Pragmatic</li>
+              <li>Honest</li>
+              <li>Respectful</li>
+              <li>Open-minded</li>
+              <li>Coherent</li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="horizontal_line">
+          <div class="line_left"></div>
+          <div class="left_circle"></div>
+          <div class="central_circle"></div>
+          <div class="right_circle"></div>
+          <div class="line_right"></div>
+        </div>
+        <div class="last block">
+          <h2>Interests & Hobbies</h2>
+          <p>I'm passionate about technology and human behavior, both determine almost all my interests and hobbies:</p>
+          <ul>
+            <li>Visiting new places</li>
+            <li>Meeting people</li>
+            <li>Having new experiences</li>
+            <li>Hiking and Biking</li>
+            <li>Web Developing</li>
+            <li>Computer Gamming</li>
+            <li>Manga and Anime</li>
+          </ul>
+        </div>
+      
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
+      <div class="block">
+        <h2>Tertiary Education</h2>			
+        <ul>
+          <li>Salesians Life Choices</li>
+          <li>Fullstack Web Development (6 months full-time course)</li>
+          <p>The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life,        practical and professional development skills.</p>
+        </ul>
+        <h2>Secondary Education</h2>
+        <ul>
+          <li>Matriculated: 2013</li>
+          <li>Pelican Park High</li>
+        </ul>
+      </div>
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
 
-    <div id="container">
-
-        <!--Begin About Section-->
-    <div id="about">
-    <div class="content">
-    <img src="image/user.jpg.jpg" width="90%" height="90%" />
-
-
-        <article id="abt">
-            <h2 >Ishmail Sadien </h2>
-                <p><h2>Junior Web Developer</h2></p>
-                <p> A dedicated young male who is eager to learn, gain and share knowledge. Self-motivated
-                and effiecient under pressure.</p>
-
-                <p>Consistent in my communication skills, moral principles and values. I believe in unity and wholeness
-                and that no man is an island.</p>
-
-                        
-                <p>Email Address: IshmailSadien@gmail.com</p>
-                <p>Mobile Number: 081 734 88 34</p>
-        </article>
-
-    </div>
-
-    </div>
-        <!-- start of education -->
-    <h1>Tertiary Education</h1>
-
-    <div class="education">
-        <p>Salesians Life Choices</p>
-        <p>Fullstack Web Development (6 months full-time course)</p>
-        <p id="ski">The Life Choices Academy is a full-time program which empowers youth from the Cape Flats with life, practical</p>
-        <p >and professional development skills. </p>
-    </div>
-
-    <div class="education">
-
-        <h1>Secondary Education</h1>
-
-    <div class="education">
-
-        <p>Matriculated: 2013</p>
-        <p>Pelican Park High</p>
-
-    </div>
-
-
-            <!-- start of skills -->
-    <h4>Skills</h4>
+      <div class="block">
+      <h2>Skills</h2>
         <ul >
             <li>HTML</li>
             <li>CSS</li>
@@ -101,127 +166,50 @@
             <li>MongoDB</li>
         </ul>
 
-    <h4>Professional Development</h4>
-        <ul class="work">
-            <li>Design Thinking</li>
-            <li >Two Weeks Life Skills</li>
-            <li>SMART Goal Setting</li>
-        </ul>
-    </div>
-
-        <!--Begin Experience Section-->
-    <div id="experience">
-        <center><h4>Employment History</h4></center>
-            <div class="top-divider"></div>
-            <div class="content">
-            <div class="col">
-                    
-    <div>
-        <p>UK Customer Service Agent: iD mobile</p>
+        <div class="parent">
+          <div class="ryu"></div>
+        </div>
+      </div>
+      <div class="horizontal_line">
+        <div class="line_left"></div>
+        <div class="left_circle"></div>
+        <div class="central_circle"></div>
+        <div class="right_circle"></div>
+        <div class="line_right"></div>
+      </div>
+    <div class="block">
+      <h2>Employment History</h2>
+   <div class="blockTwo">          
+  <div class="one">
         <p>Capita SA</p>
+        <p>UK Customer Service Agent: iD mobile</p>
         <p>Year: 2017</p>
         <p>Duration: 11 months</p>
-    </div>
-    </div>
-
-
-
-    <div>
-                        
-        <p>UK Customer Services Agent: Vodafone</p>
+      </div>
+        <div class="two">             
         <p>Webhelp SA Claremont</p>
+        <p>UK Customer Services Agent: Vodafone</p>
         <p>Year: 2015</p>
-        <p id="emojis">Duration: 7 months</p>
-
+        <p>Duration: 7 months</p>
+      </div> 
     </div>
     </div>
-
-
-    <div class="bottom-divider"></div>
+    <div class="horizontal_line">
+      <div class="line_left"></div>
+      <div class="left_circle"></div>
+      <div class="central_circle"></div>
+      <div class="right_circle"></div>
+      <div class="line_right"></div>
     </div>
-     
-        
-<footer>
-        <!-- start of my emojies -->
-    <fieldset>
-        <center><h2>Press one of 3 icons at the bottom and please wait for 3 seconds</h2></center>
-        <!-- without these line breaks the emojies will be on top of my work experience -->
-<br>
-
-
-
-    <input id="happy" type="radio" name="smiley" value="Happy">
-    <label for="happy">:)</label>
-    <input id="normal" type="radio" name="smiley" value="Normal">
-    <label for="normal">:|</label>
-    <input id="angry" type="radio" name="smiley" value="Angry">
-    <label for="angry">:(</label>
-
-
-
-
-    <div class="smiley">
-    <div class="eyes">
-    <div class="eye"></div>
-    <div class="eye"></div>
+    <div class="block">
+<h2>ProjectSS</h2>
+</div>
     </div>
-    <div class="mouth"></div>
-    </div>
-
-</fieldset>
-
-<br>
-<!-- start of my links -->
-    <a href="https://github.com/ishmail66">
-        <i class="fab fa-github"></i>
-    </a>
-
-    <a href="mailto:ishmailsadien@gmail.com">
-        <i class="fas fa-envelope-square"></i>
-    </a>
-
-
-<br>
-<!-- start of animation of -->
-    <div id="animation">
-        <p> DONE BY ISHMAIL SADIEN...ALMOST DONE LOADING...LOADING...WE ARE GETTING YOUR INFO... </p>
-    </div>
-
-    
-
-</footer>
-
-    </div>
-
-    <!-- The JavaScript -->
-    <script type="text/javascript">
-        $(function () {
-            $('#main-menu li a').bind('click', function (event) {
-                var $anchor = $(this);
-
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top
-                }, 1500, 'easeInOutExpo');
-
-                event.preventDefault();
-            });
-        });
-
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-
-
-
-    </script>
-<!-- the end -->
-
-
+    <div class="clear"></div>
+      <!-- FOOTER -->
+      <div id="footer">
+        <p class="footer_name">Ishmail Sadien CV 2018</p>
+      </div>
+		</div>
 </body>
-
 </html>
